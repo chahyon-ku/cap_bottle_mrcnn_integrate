@@ -3,7 +3,7 @@
 
 import os
 
-PDC_COCO_DATA_DIR = '/home/wei/data/pdc/coco'
+PDC_COCO_DATA_DIR = '/media/rpm/Data/pdc/coco'
 
 
 class DatasetCatalog(object):

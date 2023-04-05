@@ -4,10 +4,10 @@ import argparse
 # The global parameter
 parser = argparse.ArgumentParser()
 parser.add_argument('--maskrcnn_benchmark_root', type=str,
-                    default='/home/wei/Coding/mrcnn/maskrcnn-benchmark',
+                    default='/home/rpm/Lab/cap_bottle/kpam/mrcnn/maskrcnn-benchmark',
                     help='Path to maskrcnn_benchmark, the package should be INSTALLED')
 parser.add_argument('--config_path', type=str,
-                    default='/home/wei/Coding/mrcnn/mrcnn_integrate/config/e2e_mask_rcnn_R_50_FPN_1x_caffe2_shoe.yaml',
+                    default='/home/rpm/Lab/cap_bottle/kpam/cap_bottle_mrcnn_integrate/config/e2e_mask_rcnn_R_50_FPN_1x_caffe2_mug.yaml',
                     help='The absolute path to config file')
 
 # Parse the argument and get result

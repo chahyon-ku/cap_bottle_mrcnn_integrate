@@ -16,19 +16,19 @@ def removekey(d, listofkeys):
 parser = argparse.ArgumentParser(description="Trim Detection weights and save in PyTorch format.")
 parser.add_argument(
     "--pretrained_path",
-    default="~/.torch/models/_detectron_35858933_12_2017_baselines_e2e_mask_rcnn_R-50-FPN_1x.yaml.01_48_14.DzEQe4wC_output_train_coco_2014_train%3Acoco_2014_valminusminival_generalized_rcnn_model_final.pkl",
+    default="/home/rpm/Lab/cap_bottle/kpam/cap_bottle_mrcnn_integrate/train_tools/pretrained_models/e2e_mask_rcnn_R-50-FPN_1x.pkl",
     help="path to detectron pretrained weight(.pkl)",
     type=str,
 )
 parser.add_argument(
     "--save_path",
-    default="/home/wei/Coding/mrcnn/mrcnn_integrate/train_tools/pretrained_models/pretrained_no_last_layer.pth",
+    default="/home/rpm/Lab/cap_bottle/kpam/cap_bottle_mrcnn_integrate/train_tools/pretrained_models/e2e_mask_rcnn_R-50-FPN_1x_no_last.pth",
     help="path to save the converted model",
     type=str,
 )
 parser.add_argument(
     "--cfg",
-    default="/home/wei/Coding/mrcnn/mrcnn_integrate/config/e2e_mask_rcnn_R_50_FPN_1x_caffe2_mug.yaml",
+    default="/home/rpm/Lab/cap_bottle/kpam/cap_bottle_mrcnn_integrate/config/e2e_mask_rcnn_R_50_FPN_1x_caffe2_mug.yaml",
     help="path to config file",
     type=str,
 )

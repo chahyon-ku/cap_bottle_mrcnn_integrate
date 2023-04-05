@@ -1,6 +1,6 @@
 MODEL:
   META_ARCHITECTURE: "GeneralizedRCNN"
-  WEIGHT: "/home/wei/Coding/mrcnn/mrcnn_integrate/train_tools/pretrained_models/e2e_mask_rcnn_R-50-FPN_1x_no_last.pth"
+  WEIGHT: "/home/rpm/Lab/cap_bottle/kpam/cap_bottle_mrcnn_integrate/train_tools/pretrained_models/e2e_mask_rcnn_R-50-FPN_1x_no_last.pth"
   BACKBONE:
     CONV_BODY: "R-50-FPN"
   RESNETS:
